@@ -1,0 +1,184 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,600');
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-color: #000022;
+}
+
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    min-height: 8vh;
+    background: #000033;
+}
+
+
+
+.logo{
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    font-size: 22px;
+    transition-duration: 3s;
+}
+.nav-links li{
+    list-style: none;
+}
+.nav-links{
+    display:flex;
+    /*background-color: red;*/
+    justify-content: space-around;
+    width: 500px;
+    font-weight: bold;
+}
+
+.nav-links:hover{
+    color: black;
+    border-radius: 50%;
+    font-size: 50px;
+}
+
+.nav-links a{
+    display: flex;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    letter-spacing: 3px;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+
+
+
+
+.logo:hover{
+    color: pink;
+}
+
+
+
+table {
+  margin: auto;
+  background-color: #222;
+  width: 295px;
+  max-width: 295px;
+  height: 295px;
+  text-align: center;
+  border-radius: auto;
+  padding-right: auto;
+  padding-left: 20px;
+  margin-right: auto;
+  margin-top: 30em;
+}
+
+input {
+  outline: 0;
+  left: 10px;
+  top: 20px;
+  border: 10px;
+  color: #495069;
+  background-color: #fff;
+  border-radius: 4px;
+  width: 70px;
+  height: 50px;
+  float: left;
+  left: 100px;
+  margin: 5px;
+  font-size: 20px;
+  box-shadow: 0 4px rgba(0,0,0,0.2);
+  margin-bottom: 15px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.nav-links:hover{
+    -webkit-transform: scale(1.3);
+    -ms-transform: scale(1.3);
+    transform: scale(1.3);
+    animation-duration: 1s;
+    transition-duration: 1s;
+    transition-property: 1s;
+}
+
+.logo:hover{
+    -webkit-transform: scale(1.3);
+    -ms-transform: scale(1.3);
+    transform: scale(1.3);
+    animation-duration: 1s;
+    transition-duration: 1s;
+
+}
+
+
+/*.gameimage2:hover{
+    -webkit-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    transform: scale(1.1);
+    animation-duration: 1s;
+    transition-duration: 1s;
+    margin-top: 1em;
+}*/
+a:link{
+    text-decoration: none;
+}
+
+.back{
+  color: white;
+}
+
+.goback{
+  padding-top: 0.3em;
+  text-align: center;
+  background-color: #000077;
+  width: 100px;
+  height: 40px;
+  margin-left: 2%;
+  margin-top: 2%;
+  padding-left: 0.1em;
+}
+
+.goback:hover{
+  -webkit-transform: scale(1.09);
+  -ms-transform: scale(1.09);
+  color: #f2f2f2;
+  transform: scale(1.09);
+  animation-duration: 1s;
+  transition-duration: 1s;
+}
+
+.time {
+  margin-top: 3em;
+  text-align: center;
+  /*background-color: red;*/
+  font-size: 50px;
+  color: white;
+}
+
+
+
+
+
+
+
+
+
+
+
